@@ -78,7 +78,7 @@ public class CustomCalenderView extends LinearLayout {
         NextButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                calendar.add(Calendar.MONTH, -1);
+                calendar.add(Calendar.MONTH, 1);
                 SetUpCalender();
             }
         });
